@@ -419,11 +419,8 @@ def Rito_about_callback(update, context):
                     InlineKeyboardButton(text="ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="userbot",
                     ),
                 ],
-                [
-                    
-                ],
-                [InlineKeyboardButton(text="⩹", callback_data="Rito_")]
-               ]
+                [InlineKeyboardButton(text="⩹", callback_data="Rito_")] 
+               ],
             ),
         )
     elif query.data == "Rito_support":
