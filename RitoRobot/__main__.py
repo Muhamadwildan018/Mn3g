@@ -94,11 +94,11 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Rito_"),
+        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Rito_jasa"),
     ],
     [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="Rito_notes"),
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="Rito_prem"),
     ],
     [
         InlineKeyboardButton(text="ᴅᴇᴠ 👑", url="https://t.me/mhmdwldnnnn"),
@@ -354,7 +354,7 @@ def help_button(update, context):
 @run_async
 def Rito_about_callback(update, context):
     query = update.callback_query
-    if query.data == "Rito_":
+    if query.data == "Rito_jasa":
         query.message.edit_text(
             text=f"Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan)."
             "\n\nSilahkan Klik Button Di Bawah.",
@@ -401,7 +401,7 @@ def Rito_about_callback(update, context):
                 [[InlineKeyboardButton(text="⩹", callback_data="Rito_")]]
             ),
         )
-    elif query.data == "Rito_notes":
+    elif query.data == "Rito_prem":
         query.message.edit_text(
             text=f"✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium"
             "\n\n Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini",
