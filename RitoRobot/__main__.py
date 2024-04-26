@@ -366,7 +366,7 @@ def Rito_about_callback(update, context):
                     InlineKeyboardButton("ᴅʜɪʟ sɪ ᴅᴀɴ", user_id=5779185981),
                  ],
                  [
-                    InlineKeyboardButton(text="ᴘᴇʀᴀʙᴏᴛᴀɴ ɢᴀᴍᴇ", callback_data="dzstore"),
+                    InlineKeyboardButton(text="ᴘᴘ ᴛᴇʟᴇ", callback_data="disney"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴘᴇʀᴀʙᴏᴛᴀɴ ᴛᴇʟᴇ", callback_data="jasa"),
@@ -401,7 +401,7 @@ def Rito_about_callback(update, context):
                 [[InlineKeyboardButton(text="⩹", callback_data="Rito_")]]
             ),
         )
-    elif query.data == "Rito_prem":
+    elif query.data == "Rito_ubot":
         query.message.edit_text(
             text=f"✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium"
             "\n\n Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini",
