@@ -9,24 +9,23 @@ from RitoRobot import BOT_NAME, BOT_USERNAME, OWNER_ID, START_IMG, SUPPORT_CHAT,
 
 @pbot.on_message(filters.command("alive"))
 async def awake(_, message: Message):
-    TEXT = f"┏━━━━━━━━━━━━━━━━━━━━┓\n"
-    TEXT += f"┠➣ **ᴀᴋᴜ {BOT_NAME}.** \n"
-    TEXT += f"┠➣ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n"
-    TEXT += f"┠➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n"
-    TEXT += f"┠➣ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n"
-    TEXT += "┗━━━━━━━━━━━━━━━━━━━━┛\n\n"
+    TEXT += f"┏━━━━━━━━━━━━━━━━━━━━┓\n\n"
+    TEXT += f"┠➣ **๏ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ:** [ᴡɪʟᴅᴀɴ](tg://user?id=5779185981)` \n"
+    TEXT += f"┠➣ **๏ ғᴏᴜɴᴅᴇʀ :** [ᴡɪʟᴅᴀɴ] (https://t.me/mhmdwldnnnn)` \n"
+    TEXT += f"┠➣ **๏ ꜱᴜᴘᴘᴏʀᴛ :** [sᴛᴏʀᴇ](https://t.me/Disney_storeDan)` \n"
+    TEXT += f"┗━━━━━━━━━━━━━━━━━━━━┛\n\n"
     TEXT += "**ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴜᴅᴀʜ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴋᴜ ᴅɪsɪɴɪ ❤️**"
     BUTTON = [
         [
             InlineKeyboardButton("ʜᴇʟᴘ", url=f"https://t.me/{BOT_USERNAME}?start=help"),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/SiArab_Support"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/musik_supportDan"),
         ],
         [
-            InlineKeyboardButton("ᴍʏ ᴏᴡɴᴇʀ", url=f"t.me/Dhilnihnge"),
+            InlineKeyboardButton("ᴍʏ ᴏᴡɴᴇʀ", url=f"t.me/mhmdwldnnnn"),
         ]
     ]
     await message.reply_photo(
-        photo=START_IMG,
+        photo=f"https://telegra.ph//file/5f47ba158a30ce7d161ea.jpg",
         caption=TEXT,
         reply_markup=InlineKeyboardMarkup(BUTTON),
     )
