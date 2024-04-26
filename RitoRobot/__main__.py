@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            START_IMG, "https://telegra.ph//file/5f47ba158a30ce7d161ea.jpg"
+            START_IMG, "https://telegra.ph//file/5f47ba158a30ce7d161ea.jpg",
             caption="ʙᴀɴᴛɪɴɢ ᴡɪʟᴅᴀɴ ᴅᴏɴɢ ʙᴀɴɢ \n<b>​ ❤️ :</b> <code>{}</code>".format(
                 uptime
             ),
