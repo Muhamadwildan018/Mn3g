@@ -94,7 +94,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Rito_jasa"),
+        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Rito_"),
     ],
     [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
@@ -222,8 +222,8 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            START_IMG,
-            caption="ʙᴀɴᴛɪɴɢ ᴅᴇᴅᴇ ᴅᴏɴɢ ʙᴀɴɢ \n<b>​ ❤️ :</b> <code>{}</code>".format(
+            START_IMG, "https://telegra.ph//file/5f47ba158a30ce7d161ea.jpg"
+            caption="ʙᴀɴᴛɪɴɢ ᴡɪʟᴅᴀɴ ᴅᴏɴɢ ʙᴀɴɢ \n<b>​ ❤️ :</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -354,11 +354,11 @@ def help_button(update, context):
 @run_async
 def Rito_about_callback(update, context):
     query = update.callback_query
-    if query.data == "Rito_jasa":
+    if query.data == "Rito_":
         query.message.edit_text(
             text=f"Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan)."
             "\n\nSilahkan Klik Button Di Bawah.",
-            parse_mode=ParseMode.HTML,
+            parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -366,10 +366,10 @@ def Rito_about_callback(update, context):
                     InlineKeyboardButton("ᴅʜɪʟ sɪ ᴅᴀɴ", user_id=5779185981),
                  ],
                  [
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="Rito_notes"),
+                    InlineKeyboardButton(text="ᴘᴇʀᴀʙᴏᴛᴀɴ ɢᴀᴍᴇ", callback_data="dzstore"),
                  ],
                  [
-                    InlineKeyboardButton(text="ᴘᴇʀᴀʙᴏᴛᴀɴ ᴛᴇʟᴇ", callback_data="Rito_jasa"),
+                    InlineKeyboardButton(text="ᴘᴇʀᴀʙᴏᴛᴀɴ ᴛᴇʟᴇ", callback_data="jasa"),
                  ],
                  [
                     InlineKeyboardButton(text="«", callback_data="Rito_back"),
@@ -501,10 +501,10 @@ def Rito_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "Rito_jasa":
+    elif query.data == "Rito_":
         query.message.edit_text(
             text=JASA,
-            parse_mode=ParseMode.HTML,
+            parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
@@ -512,7 +512,7 @@ def Rito_about_callback(update, context):
                      InlineKeyboardButton(text="ᴜʙɪ  ᴅᴀɴ", url="https://t.me/mhmdwldnnnn"),
                  ],
                  [
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="Rito_notes"),
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="mhmdwldnnnn_bot"),
                  ],
                  [
                      InlineKeyboardButton(text="sɪ ᴅɪsɴᴇʏ sᴛᴏꝛᴇ", url="https://t.me/Disney_storeDan"),
