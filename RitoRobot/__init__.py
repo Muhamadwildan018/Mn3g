@@ -52,7 +52,7 @@ if ENV:
     ARQ_API_KEY = os.environ.get("ARQ_API", None)
     ARQ_API_URL = os.environ.get("ARQ_API_URL", "https://arq.hamker.dev")
     ARQ_API_KEY = os.environ.get("ARQ_API_KEY", None)
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "mhmdwldnnnn")
     DONATE_LINK = os.environ.get("DONATE_LINK", None)
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
@@ -61,17 +61,17 @@ if ENV:
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     START_IMG = os.environ.get(
-        "START_IMG", None
+        "START_IMG", "https://telegra.ph//file/5f47ba158a30ce7d161ea.jpg"
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Ritosupport")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "musik_supportdan")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
     WORKERS = int(os.environ.get("WORKERS", 8))
 
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", None))
+        OWNER_ID = int(os.environ.get("OWNER_ID", 5779185981))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
@@ -81,23 +81,23 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
     try:
-        DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
-        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "").split())
+        DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "5779185981").split())
+        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "5779185981").split())
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
     try:
-        DEMONS = set(int(x) for x in os.environ.get("DEMONS", "").split())
+        DEMONS = set(int(x) for x in os.environ.get("DEMONS", "5779185981").split())
     except ValueError:
         raise Exception("Your support users list does not contain valid integers.")
 
     try:
-        TIGERS = set(int(x) for x in os.environ.get("TIGERS", "").split())
+        TIGERS = set(int(x) for x in os.environ.get("TIGERS", "5779185981").split())
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
     try:
-        WOLVES = set(int(x) for x in os.environ.get("WOLVES", "").split())
+        WOLVES = set(int(x) for x in os.environ.get("WOLVES", "5779185981").split())
     except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
@@ -160,9 +160,9 @@ else:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
 
-DRAGONS.add(OWNER_ID)
-DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1814359323)
+DRAGONS.add(5779185981)
+DEV_USERS.add(5779185981)
+DEV_USERS.add(5779185981)
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
@@ -186,8 +186,8 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 mongo = MongoClient(MONGO_DB_URI)
-db = mongo.Rito_ROBOT
-DB_NAME = "Rito"
+db = mongo.Dan_ROBOT
+DB_NAME = "Dan"
 try:
     client = MongoClient(MONGO_DB_URI)
 except PyMongoError:
