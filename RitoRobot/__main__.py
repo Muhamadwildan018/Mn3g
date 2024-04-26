@@ -354,7 +354,7 @@ def help_button(update, context):
 @run_async
 def Rito_about_callback(update, context):
     query = update.callback_query
-    if query.data == "Rito_jasa":
+    if query.data == "Rito_":
         query.message.edit_text(
             text=f"Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan)."
             "\n\nSilahkan Klik Button Di Bawah.",
@@ -401,28 +401,27 @@ def Rito_about_callback(update, context):
                 [[InlineKeyboardButton(text="⩹", callback_data="Rito_")]]
             ),
         )
-    elif query.data == "Rito_ubot":
+    elif query.data == "Rito_notes":
         query.message.edit_text(
-            text=f"✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium"
-            "\n\n Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini",
+            text=f"✮ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ɪɴɪ ᴅɪ ʙᴜᴀᴛ ʙᴇʀᴛᴜᴊᴜᴀɴ ʜᴀᴠᴇ ꜰᴜɴ ᴅᴀɴ ꜱᴀʟɪɴɢ ᴍᴇʀᴀɴɢᴋᴜʟ, 
+            ᴅɪꜱɪɴɪ ɢᴀʙᴀᴅᴀ ʏᴀɴɢ ɴᴀᴍᴀɴʏᴀ ᴘᴇᴛɪɴɢɢɪ ꜱᴇᴍᴜᴀ ʀᴀᴛᴀ ᴋᴏɴᴛᴏʟ
+            ʟᴜ ʙɪꜱᴀ ᴊᴏɪɴ ɢʀᴏᴜᴘꜱ ᴅɪʙᴀᴡᴀʜ, ᴋᴀʟᴏ ᴍᴀᴜ ɴɢᴇ ᴀᴅᴍɪɴ ʟᴀɴɢꜱᴜɴɢ ᴘᴄᴘᴄ ᴀᴊᴀ ᴅᴀɴ:",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                [
                 [
-                    InlineKeyboardButton("ᴅʜɪʟ sɪ ᴅᴀɴ", user_id=5779185981),
+                    InlineKeyboardButton("ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"https://t.me/mhmdwldnnnn_bot",
                 ],
                 [
-                    InlineKeyboardButton(text="Ubot Spesial II", url="https://t.me/mhmdwldnnnn_bot",
+                    InlineKeyboardButton(text="ᴘᴘ ᴅɪsɴᴇʏ", callback_data="disney",
                     ),
-                    InlineKeyboardButton(text="Ubot Spesial III", url="https://t.me/mhmdwldnnnn_bot",
+                    InlineKeyboardButton(text="ɴᴏᴋᴏs ᴛᴇʟᴇɢʀᴀᴍ", callback_data="telegram",
                     ),
-                    InlineKeyboardButton(text="Ubot Spesial IV", url="https://t.me/mhmdwldnnnn_bot",
+                    InlineKeyboardButton(text="ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="userbot",
                     ),
                 ],
                 [
-                    InlineKeyboardButton(text="Ubot Ultra I", url="https://t.me/mhmdwldnnnn_bot"),
-                    InlineKeyboardButton(text="Ubot Ultra II", url="https://t.me/mhmdwldnnnn_bot"),
-                    InlineKeyboardButton(text="Ubot Ultra III", url="https://t.me/mhmdwldnnnn_bot"),
+                    
                 ],
                 [InlineKeyboardButton(text="⩹", callback_data="Rito_")]
                ]
@@ -451,8 +450,6 @@ def Rito_about_callback(update, context):
                 ]
             ),
         )
-
-
     elif query.data == "Rito_credit":
         query.message.edit_text(
             text="♬ PERINTAH EKSTRA"
@@ -501,9 +498,10 @@ def Rito_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "Rito_":
+    elif query.data == "Rito_jasa":
         query.message.edit_text(
-            text=JASA,
+            text=f"Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan)."
+            "\n\nSilahkan Klik Button Di Bawah.",,
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
