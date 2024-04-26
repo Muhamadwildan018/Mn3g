@@ -9,12 +9,12 @@
          "manager",
          "Fallen"
       ],   
-   "repository": "https://github.com/DjeFaris/RitoRobot",
+   "repository": "https://github.com/Muhamadwildan018/Mn3g",
    "stack": "heroku-22",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "15"
          },
          "plan": "heroku-postgresql"
       }
@@ -23,12 +23,12 @@
       "API_ID": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": "16452568"
+         "value": "29418676"
       },
       "API_HASH": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": "f936697c5c9e5bffd433babef7a4e4c9"
+         "value": "0d522e02f8ea68339661fc9146479c15"
       },
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
@@ -37,7 +37,7 @@
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "ZMOE8Q6BE25J7BEU"
+         "value": "OMHHBGMFANR1RP76"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -51,57 +51,57 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001935424604"
+         "value": "-1001969246312"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": "mongodb+srv://Muhammad:new37@cluster0.i5k0icq.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://AbhiModszYT:AbhiModszYT@abhimodszyt.pom3ops.mongodb.net/?retryWrites=true&w=majority"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1337085565"
+         "value": "5779185981"
       },
       "OWNER_USERNAME": {
          "description": "Fill Username Without @.",
          "required": true,
-         "value": "MSDZULQRNN"
+         "value": "mhmdwldnnnn"
       },
       "BOT_USERNAME": {
          "description": "Fill Username Without @.",
          "required": true,
-         "value": "ManzokuRobot"
+         "value": "wildanmusic_bot"
       },
       "BOT_NAME": {
          "description": "Fill Bot Name.",
          "required": true,
-         "value": "𝙈𝘼𝙉𝙕𝙊𝙆𝙐 𝙍𝙊𝘽𝙊𝙏"
+         "value": "WILDAN MUSIC BOT"
       },
       "DONATE_LINK": {
          "description": "Fill Qris Link.",
          "required": true,
-         "value": "https://t.me/stories_zulll/34"
+         "value": "https://link.dana.id/qr/6l85aa18"
       },
       "START_IMG": {
          "description": "Telegraph link of the image which will be shown at start command.",
          "required": true,
-         "value": "https://telegra.ph/file/9f93ca1114a1e01b63239.jpg"
+         "value": "https://telegra.ph//file/5f47ba158a30ce7d161ea.jpg"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
          "required": true,
-         "value": "MSPR0JECT"
+         "value": "muisk_supportdan"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "J1BBEIOV38CZ"
+         "value": "BQO2E9CQOR2P"
       },
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
          "required": true,
-         "value": "6135290396:AAF7UgILn63OaK17nErr2Z_DGK9Tqvn4d98"
+         "value": "6647010165:AAEkpnjD2-X54hXZmI7SwO0RFXSi89Uw6cU"
       }
    }
 }
