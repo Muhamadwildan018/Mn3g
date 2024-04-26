@@ -2,44 +2,44 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 16452568
-    API_HASH = "f936697c5c9e5bffd433babef7a4e4c9"
+    API_ID = 29418676
+    API_HASH = "0d522e02f8ea68339661fc9146479c15"
 
-    CASH_API_KEY = "J1BBEIOV38CZ"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "BQO2E9CQOR2P"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    EVENT_LOGS = (-1001795374467)  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1001969246312)  # Event logs channel to note down important bot level events
 
     # Telegraph link of the image which will be shown at start command.
-    START_IMG = "https://telegra.ph//file/a679b3ae99ff100437671.jpg"
+    START_IMG = "https://telegra.ph//file/5f47ba158a30ce7d161ea.jpg"
     
-    DONATE_LINK = "https://link.dana.id/qr/3akqs26o"
+    DONATE_LINK = "https://link.dana.id/qr/6l85aa18"
 
-    SUPPORT_CHAT = "SiArab_Support"  # Your Telegram support group chat username where your users will go and bother you
+    SUPPORT_CHAT = "musik_supportdan"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "6515197149:AAEUZdUatsvt_t1ElCqWB2qDl5wEg6Ca9DM"  # Get bot token from @BotFather on Telegram
+    TOKEN = "6647010165:AAEkpnjD2-X54hXZmI7SwO0RFXSi89Uw6cU"  # Get bot token from @BotFather on Telegram
 
-    TIME_API_KEY = "ZMOE8Q6BE25J7BEU"  # Get this value from https://timezonedb.com/api
+    TIME_API_KEY = "OMHHBGMFANR1RP76"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 1948147616  # User id of your telegram account (Must be integer)
+    OWNER_ID = 5779185981  # User id of your telegram account (Must be integer)
     
-    MUST_JOIN = "SiArab_Support"
+    MUST_JOIN = "Disney_storeDan"
     
     #TAMBAHAN
-    DATABASE_URL = "postgresql://doadmin:AVNS_AbvumOGAgERUr-xVj-n@db-postgresql-sgp1-66543-do-user-15262677-0.c.db.ondigitalocean.com:25060/defaultdb?sslmode=require"
-    MONGO_DB_URI = "mongodb+srv://doadmin:9r260Iqy437zS1lA@db-mongodb-sgp1-52558-1312a8db.mongo.ondigitalocean.com/admin?tls=true&authSource=admin&replicaSet=db-mongodb-sgp1-52558"
-    ARQ_API_KEY = "WMFOGU-ONOVQJ-QOZVEQ-UHVFBD-ARQ"
+    DATABASE_URL = "postgres://wscpccsiinunst:f6f399e7919187bdab4e43193d49c974ef3dbf81a70b8f308a044d2277be8c04@ec2-34-232-92-61.compute-1.amazonaws.com:5432/dane27hmja8n37"
+    MONGO_DB_URI = "mongodb+srv://AbhiModszYT:AbhiModszYT@abhimodszyt.pom3ops.mongodb.net/?retryWrites=true&w=majority"
+    ARQ_API_KEY = "VFYULS-ASTLSK-BRVUAU-ZEGDFV-ARQ"
     ARQ_API_URL = "http://arq.hamker.dev"
     
     # Optional fields
-    BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = [1948147616]  # User id of sudo users
-    DEV_USERS = [1948147616]  # User id of dev users
-    DEMONS = [1948147616]  # User id of support users
-    TIGERS = [1948147616]  # User id of tiger users
-    WOLVES = [1948147616]  # User id of whitelist users
+    BL_CHATS = [5779185981]  # List of groups that you want blacklisted.
+    DRAGONS = [5779185981]  # User id of sudo users
+    DEV_USERS = [5779185981]  # User id of dev users
+    DEMONS = [5779185981]  # User id of support users
+    TIGERS = [5779185981]  # User id of tiger users
+    WOLVES = [5779185981]  # User id of whitelist users
 
     ALLOW_CHATS = True
-    OWNER_USERNAME = "Dhilnihnge"
+    OWNER_USERNAME = "mhmdwldnnnn"
     ALLOW_EXCL = True
     DEL_CMDS = True
     INFOPIC = True
