@@ -356,9 +356,9 @@ def Rito_about_callback(update, context):
     query = update.callback_query
     if query.data == "Rito_jasa":
         query.message.edit_text(
-            text="Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan)."
+            text=f"Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan)."
             "\n\nSilahkan Klik Button Di Bawah.",
-            parse_mode=ParseMode.MARKDOWN,
+            parse_mode=ParseMode.HTML,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -403,7 +403,7 @@ def Rito_about_callback(update, context):
         )
     elif query.data == "Rito_notes":
         query.message.edit_text(
-            text="✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium"
+            text=f"✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium"
             "\n\n Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -504,7 +504,7 @@ def Rito_about_callback(update, context):
     elif query.data == "Rito_jasa":
         query.message.edit_text(
             text=JASA,
-            parse_mode=ParseMode.MARKDOWN,
+            parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
