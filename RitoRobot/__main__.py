@@ -403,9 +403,8 @@ def Rito_about_callback(update, context):
         )
     elif query.data == "Rito_notes":
         query.message.edit_text(
-            text=f"✮ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ɪɴɪ ᴅɪ ʙᴜᴀᴛ ʙᴇʀᴛᴜᴊᴜᴀɴ ʜᴀᴠᴇ ꜰᴜɴ ᴅᴀɴ ꜱᴀʟɪɴɢ ᴍᴇʀᴀɴɢᴋᴜʟ, 
-            ᴅɪꜱɪɴɪ ɢᴀʙᴀᴅᴀ ʏᴀɴɢ ɴᴀᴍᴀɴʏᴀ ᴘᴇᴛɪɴɢɢɪ ꜱᴇᴍᴜᴀ ʀᴀᴛᴀ ᴋᴏɴᴛᴏʟ
-            ʟᴜ ʙɪꜱᴀ ᴊᴏɪɴ ɢʀᴏᴜᴘꜱ ᴅɪʙᴀᴡᴀʜ, ᴋᴀʟᴏ ᴍᴀᴜ ɴɢᴇ ᴀᴅᴍɪɴ ʟᴀɴɢꜱᴜɴɢ ᴘᴄᴘᴄ ᴀᴊᴀ ᴅᴀɴ:",
+            text=f"*✮ Manage ini di buat bertujuan have fun dan saling." 
+            "\n\nMerangkul disini gabeda yang namanya petinggi semua rata kontol.", 
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                [
