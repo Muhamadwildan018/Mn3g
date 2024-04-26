@@ -1,13 +1,11 @@
 #MS DZULQURNAIN
 
-text_payment="""𝙋𝘼𝙔𝙈𝙀𝙉𝙏 𝘿𝙕 𝙎𝙏𝙊𝙍𝙀💸
+text_payment="""𝙋𝘼𝙔𝙈𝙀𝙉𝙏 𝘿𝙄𝙎𝙉𝙀𝙔 𝙎𝙏𝙊𝙍𝙀💸
 
-TESTIMONI : [(KLIK DISINI)](https://t.me/TESTI_DZSTORE)
+TESTIMONI : [(KLIK DISINI)](https://t.me/Disney_storeDan)
 
 Payment💳
-»DANA    : 082137969411
-»OVO       : 082137969411
-»GO-PAY : 082137969411
+»DANA    : 083107520691
 
 ᴄᴀᴛᴀᴛᴀɴ:
 1.ᴘᴍ ᴀᴅᴍɪɴ ꜱᴇʙᴇʟᴜᴍ ᴍᴇɴɢɪʀɪᴍ ᴜᴀɴɢ
