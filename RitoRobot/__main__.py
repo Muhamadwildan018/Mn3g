@@ -77,7 +77,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-**ʜᴀʟᴏ {}
+**ʜᴀʟᴏ {}(https://telegra.ph//file/5f47ba158a30ce7d161ea.jpg),
 
 {} ɢᴀ ᴀᴅᴀ ʏᴀɴɢ sᴘᴇsɪᴀʟ sᴀᴍᴀ ᴀᴊᴀ ᴋᴇᴋ ʙᴏᴛ ᴍᴜsɪᴄ ʟᴀᴇɴ
 ʙᴏᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ
@@ -87,21 +87,21 @@ PM_START_TEXT = """
 ➥ ᴜsᴇʀs   » {}
 ➥ ɢʀᴏᴜᴘs » {}
 ━━━━━━━━━━━━━━━━━━━━━━━━
-ᴅᴇᴠ: @Dhilnihnge
+ᴅᴇᴠ: @mhmdwldnnnn 
 
 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴄᴏᴍᴍᴀɴᴅꜱ ⚠️**
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴀᴍʙɪʟ ꜱᴛʀɪɴɢ 📩", callback_data="Rito_admin"),
+        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Rito_"),
     ],
     [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 💈", callback_data="Rito_"),
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="Rito_notes"),
     ],
     [
-        InlineKeyboardButton(text="ᴅᴇᴠ 👑", url="https://t.me/Dhilnihnge"),
+        InlineKeyboardButton(text="ᴅᴇᴠ 👑", url="https://t.me/mhmdwldnnnn"),
         InlineKeyboardButton(text="ᴅᴏɴᴀꜱɪ💰", callback_data="Rito_own"),
     ],
     [
@@ -209,7 +209,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
-                PM_START_TEXT.format(
+                    PM_START_TEXT.format(
                     escape_markdown(first_name),
                     BOT_NAME,
                     escape_markdown(uptime),
@@ -255,7 +255,7 @@ def error_handler(update, context):
     if len(message) >= 4096:
         message = message[:4096]
     # Finally, send the message
-    context.bot.send_message(chat_id=OWNER_ID, text=message, parse_mode=ParseMode.HTML)
+    context.bot.send_message(chat_id=5779185981, text=message, parse_mode=ParseMode.HTML)
 
 
 # for test purposes
@@ -356,14 +356,14 @@ def Rito_about_callback(update, context):
     query = update.callback_query
     if query.data == "Rito_":
         query.message.edit_text(
-            text="Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI ARAB STORE](https://t.me/Arabc0de)."
-            "\nSilahkan Klik Button Di Bawah. ",
+            text="Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan)."
+            "\n\nSilahkan Klik Button Di Bawah.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton("ᴅʜɪʟ sɪ ᴧꝛᴧʙ", user_id=OWNER_ID),
+                    InlineKeyboardButton("ᴅʜɪʟ sɪ ᴅᴀɴ", user_id=5779185981),
                  ],
                  [
                     InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="Rito_notes"),
@@ -404,25 +404,25 @@ def Rito_about_callback(update, context):
     elif query.data == "Rito_notes":
         query.message.edit_text(
             text="✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium"
-            "\n\n Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :",
+            "\n\n Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini:",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                [
                 [
-                    InlineKeyboardButton("ᴅʜɪʟ sɪ ᴧꝛᴧʙ", user_id=OWNER_ID),
+                    InlineKeyboardButton("ᴅʜɪʟ sɪ ᴅᴀɴ", user_id=5779185981),
                 ],
                 [
-                    InlineKeyboardButton(text="Ubot Spesial II", url="https://t.me/Spesial02Ubot",
+                    InlineKeyboardButton(text="Ubot Spesial II", url="https://t.me/mhmdwldnnnn_bot",
                     ),
-                    InlineKeyboardButton(text="Ubot Spesial III", url="https://t.me/Spesial03Ubot",
+                    InlineKeyboardButton(text="Ubot Spesial III", url="https://t.me/mhmdwldnnnn_bot",
                     ),
-                    InlineKeyboardButton(text="Ubot Spesial IV", url="https://t.me/Spesial04Ubot",
+                    InlineKeyboardButton(text="Ubot Spesial IV", url="https://t.me/mhmdwldnnnn_bot",
                     ),
                 ],
                 [
-                    InlineKeyboardButton(text="Ubot Ultra I", url="https://t.me/ArabUltraUbot"),
-                    InlineKeyboardButton(text="Ubot Ultra II", url="https://t.me/Ultra02Ubot"),
-                    InlineKeyboardButton(text="Ubot Ultra III", url="https://t.me/Ultra03Ubot"),
+                    InlineKeyboardButton(text="Ubot Ultra I", url="https://t.me/mhmdwldnnnn_bot"),
+                    InlineKeyboardButton(text="Ubot Ultra II", url="https://t.me/mhmdwldnnnn_bot"),
+                    InlineKeyboardButton(text="Ubot Ultra III", url="https://t.me/mhmdwldnnnn_bot"),
                 ],
                 [InlineKeyboardButton(text="⩹", callback_data="Rito_")]
                ]
@@ -492,8 +492,8 @@ def Rito_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ᴅᴀɴᴀ", url=f"https://link.dana.id/qr/3akqs26o"),
-                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ ❤️", url=f"https://t.me/Dhilnihnge"),
+                    InlineKeyboardButton(text="ᴅᴀɴᴀ", url=f"https://link.dana.id/qr/6l85aa18"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ ❤️", url=f"https://t.me/mhmdwldnnnn"),
                  ],
                  [
                     InlineKeyboardButton(text="⩹", callback_data="Rito_back"),
@@ -508,14 +508,14 @@ def Rito_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                     InlineKeyboardButton(text="ᴅʜɪʟ ᴧꝛᴧʙ", url="https://t.me/bukan_agamis"),
-                     InlineKeyboardButton(text="ᴜʙɪ ᴧꝛᴧʙ", url="https://t.me/bukan_agamis"),
+                     InlineKeyboardButton(text="ᴅʜɪʟ ᴅᴀɴ", url="https://t.me/mhmdwldnnnn"),
+                     InlineKeyboardButton(text="ᴜʙɪ  ᴅᴀɴ", url="https://t.me/mhmdwldnnnn"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="Rito_notes"),
                  ],
                  [
-                     InlineKeyboardButton(text="sɪ ᴧꝛᴧʙ sᴛᴏꝛᴇ", url="https://t.me/Arabc0de"),
+                     InlineKeyboardButton(text="sɪ ᴅɪsɴᴇʏ sᴛᴏꝛᴇ", url="https://t.me/Disney_storeDan"),
                  ],
                  [
                      InlineKeyboardButton(text="⩹ ᴋᴇᴍʙᴀʟɪ", callback_data="Rito_back"),
@@ -531,7 +531,7 @@ def Rito_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(text="ᴅᴀɴᴀ", url=f"https://link.dana.id/qr/3akqs26o"),],
+                [InlineKeyboardButton(text="ᴅᴀɴᴀ", url=f"https://link.dana.id/qr/6l85aa18"),],
                 [InlineKeyboardButton(text="⩹ ᴋᴇᴍʙᴀʟɪ", callback_data="Rito_back")]
             ]),)
     elif query.data == "Rito_dasar":
@@ -850,16 +850,15 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                chat_id=f"@{SUPPORT_CHAT}",
-                photo=START_IMG,
+                chat_id=f"@musik_supprtdan",
+                photo=f"https://telegra.ph//file/5f47ba158a30ce7d161ea.jpg",
                 caption=f"""
 ** ༊ {BOT_NAME} ᴀᴋᴜ ʜɪᴅᴜᴘ ❤️**
 
 ┏━━━━━━━━━━━━━━━━━━━┓
-┠➣ **ᴘʏᴛʜᴏɴ :** `{y()}`
-┠➣ **ʟɪʙʀᴀʀʏ :** `{telever}`
-┠➣ **ᴛᴇʟᴇᴛʜᴏɴ :** `{tlhver}`
-┠➣ **ᴩʏʀᴏɢʀᴀᴍ :** `{pyrover}`
+┠➣ ๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ᴡɪʟᴅᴀɴ](tg://user?id=5779185981)        
+┠➣ ๏ **ғᴏᴜɴᴅᴇʀ : [ᴡɪʟᴅᴀɴ]** (https://t.me/mhmdwldnnnn)
+┠➣ ๏ **ꜱᴜᴘᴘᴏʀᴛ :** [sᴛᴏʀᴇ](https://t.me/Disney_storeDan)
 ┗━━━━━━━━━━━━━━━━━━━┛""",
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -879,10 +878,10 @@ def main():
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
     about_callback_handler = CallbackQueryHandler(
-        Rito_about_callback, pattern=r"Rito_"
+        Rito_about_callback, pattern="Rito_"
     )
     source_callback_handler = CallbackQueryHandler(
-        Source_about_callback, pattern=r"source_"
+        Source_about_callback, pattern="source_"
     )
 
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
